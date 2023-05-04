@@ -75,8 +75,8 @@ body{
 	font-style: italic;
 	text-align: center;
 	color: #fff;
-	font-family: Broadway/*Comic Sans MS*/;
-	font-size: 18px;
+	font-family: Roboto/*Comic Sans MS*/;
+	font-size: 20px;
 }
 .header-text{
 	
@@ -186,8 +186,8 @@ body{
 
 	margin-top: 1%;
 	border-radius: 5px;
-	width: 230px;
-	height: 150px;
+	width: 290px;
+	height: 230px;
 
 }
 .block-need-item:hover{
@@ -212,7 +212,7 @@ body{
 	background: white;
 	border-radius: 0px 0px 20px 0px;
 	text-align: center;
-	font-size: 7pt;
+	font-size: 9pt;
 	font-style: italic;
 	transition: .5s;
 }
@@ -242,18 +242,21 @@ body{
 	justify-content: center;
 	align-items: center;
 	width: 95%;
-	height: 405px;
+	height: 420px;
 	color: white;
 	border-radius: 0 50px 0px 50px;
 }
 #room2{
-		height: 350px;
+		height: 380px;
 }
 #room2 h3{
-	margin-top: 50px;
+	margin-top: 70px;
 }
 #room3{
 		height: 385px;
+}
+#room3 h3{
+	margin-top: 30px;
 }
 .room-info-block{
 	background: #28302a;
@@ -264,10 +267,10 @@ body{
 	align-items: center;
 }
 .room-info-block h3{
-	margin-top: 20px;
+	margin-top: 25px;
 	width: 90%;
 	text-align: center;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 .room-info-block p{
 	width: 90%;
@@ -429,14 +432,13 @@ body{
 	cursor: pointer;
 	font-size: 8pt;
 	border-radius: 10px;
-	margin-top: 10px;
-	
+	margin-top: 20px;
  	padding: 10px 20px;
  	transition: 0.3s;
 }
 
 .open-video:hover{
-	margin-top: 7px;
+	margin-top: 24px;
 }
 #open1{
 	background: #a8b8a7;
@@ -518,4 +520,8 @@ footer{
 .window video{
 	height: 100%;
 	width: 100%;
+}
+ul li{
+	margin-left: 3px;
+	font-size: 8pt;
 }
