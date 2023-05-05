@@ -4,9 +4,9 @@ var fixed = 0;
 var sliderDelay = 500; // milliseconds
 
 var roomImages = [
-	["room/1.png", "room/2.png", "room/3.png"],
-	["room/4.png", "room/5.png", "room/6.png"],
 	["room/7.png", "room/8.png", "room/9.png"],
+	["room/4.png", "room/5.png", "room/6.png"],
+	["room/1.png", "room/2.png", "room/3.png"],
 	];
 
 var roomVideos = [
